@@ -1,8 +1,8 @@
 import fs from "fs";
 
 import { config } from "./config.js";
-import { BinanceFuturesClient } from "./clients/BinanceFuturesClient.js";
-import { Database } from "./database/Database.js";
+import { BinanceFuturesClient } from "./clients/binanceFuturesClient.js";
+import { Database } from "./database/database.js";
 
 
 function sleep(ms) {
