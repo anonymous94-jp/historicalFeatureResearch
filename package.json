@@ -10,13 +10,15 @@
     "features": "node src/scripts/buildFeatures.js",
     "pump-events": "node src/scripts/buildPumpEvents.js",
     "pump-starts": "node src/scripts/buildPumpStarts.js",
-    "pre-pump-features": "node src/scripts/buildPrePumpFeatures.js"
+    "pre-pump-features": "node src/scripts/buildPrePumpFeatures.js",
+    "bot": "node src/telegramBot.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "axios": "^1.20.0",
     "better-sqlite3": "^13.0.3",
-    "dotenv": "^18.0.4"
+    "dotenv": "^18.0.4",
+    "node-telegram-bot-api": "0.66.0"
   }
 }
