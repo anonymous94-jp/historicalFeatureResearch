@@ -17,7 +17,8 @@ export const config = {
             "NEARUSDT",
             "NIGHTUSDT",
             "ZECUSDT",
-            "OGNUSDT"
+            "OGNUSDT",
+            "APTUSDT"
         ]
     },
 

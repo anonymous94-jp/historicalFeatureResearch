@@ -11,7 +11,10 @@
     "pump-events": "node src/scripts/buildPumpEvents.js",
     "pump-starts": "node src/scripts/buildPumpStarts.js",
     "pre-pump-features": "node src/scripts/buildPrePumpFeatures.js",
-    "bot": "node src/telegramBot.js"
+    "bot": "node src/telegramBot.js",
+    "compare-pump-control": "node src/scripts/comparePumpVsControl.js",
+    "test-pump-detection": "node src/scripts/testPumpDetection.js",
+    "test-sequential-pump": "node src/scripts/testSequentialPumpDetection.js"
   },
   "author": "",
   "license": "ISC",
